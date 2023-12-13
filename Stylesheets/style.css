@@ -1,12 +1,10 @@
 body {
-    margin: 10px solid black;
-    padding: 10px;
     font-family: math;
 }
 
 h1 {
     text-align: center;
-    color: red;
+    color: maroon;
 }
 
 h2 {
@@ -22,13 +20,44 @@ p {
 
 /* the style thingie is used for changing the appearance of the img tag under the id attribute */
 #banner {
-    width: 250;
-    height: 250;
+    width: 250px;
+    height: 250px;
 }
 
 #navbar {
+    display: flex;
+    align-items: center;
     padding: 8px;
-    
+    margin: 0px;
+}
+
+#about {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#description {
+    width: 50%;
+    padding: 20px;
+    margin: 0;
+}
+
+#place {
+    width: 50%;
+    padding-left: 125px;
+    padding-right: auto;
+    padding-top: 45px;
+}
+
+#image {
+    border-radius: 5px;
+}
+
+#career {
+    padding: 20px;
+    width: 50%;
+    padding-top: 48px;
 }
 
 
@@ -39,4 +68,8 @@ p {
 
 .location {
     color: grey;
+}
+
+.logo-container {
+    margin-right: 10px;
 }

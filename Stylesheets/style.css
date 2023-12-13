@@ -26,6 +26,11 @@ p {
     height: 250;
 }
 
+#navbar {
+    padding: 8px;
+    
+}
+
 
 /* the below thingie is used for changing the appearance of any tag, under the class attribute */
 .emphasis {

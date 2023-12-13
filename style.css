@@ -1,3 +1,9 @@
+body {
+    margin: 10px solid black;
+    padding: 10px;
+    font-family: math;
+}
+
 h1 {
     text-align: center;
     color: red;
@@ -13,7 +19,19 @@ p {
     color: black;
 }
 
+
+/* the style thingie is used for changing the appearance of the img tag under the id attribute */
 #banner {
     width: 250;
     height: 250;
+}
+
+
+/* the below thingie is used for changing the appearance of any tag, under the class attribute */
+.emphasis {
+    color: darkblue;
+}
+
+.location {
+    color: grey;
 }

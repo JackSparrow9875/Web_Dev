@@ -76,6 +76,19 @@ a {
     margin: 0 16px;
 }
 
+#jobs {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+#jobs-table {
+    width: 100%;
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+
+
 /* the below thingie is used for changing the appearance of any tag, under the class attribute */
 .emphasis {
     color: darkblue;
@@ -97,4 +110,17 @@ a {
 .copyright {
     font-family: sans-serif;
     color: lightslategray;
+}
+
+.jobs-header-row th {
+    text-align: center;
+    border: 1px solid grey;
+    padding: 8px;
+    background-color: aliceblue;
+}
+
+.jobs-data-row td {
+    text-align: center;
+    border: 1px solid grey;
+    padding: 8px;
 }

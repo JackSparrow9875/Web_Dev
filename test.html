@@ -2,6 +2,9 @@
 <html lang="en">
     <head>
         <title>SavorSphere Bistro</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=DM+Sans:ital,opsz,wght@0,9..40,200;1,9..40,200&family=IBM+Plex+Sans:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="Stylesheets/style.css">
     </head>
     <body>
@@ -9,14 +12,14 @@
             <div class="logo-container">
                 <img src="Images/logo.jpg" alt="Our logo" width="65" height="65" class="logo">
             </div>
-            <h1><b><i>SavorSphere Bistro</i></b></h1>
+            <h1 style="color: maroon; font-size: larger; padding-top: auto auto;"><b><i>SavorSphere Bistro</i></b></h1>
         </div>
 
         <br>
 
         <div id="about">
             <div id="description">
-                <div><h2>About Us</h2></div>
+                <div><h2 style="color: darkolivegreen; text-align: center;">About Us</h2></div>
                 <div><p style="text-align: left;">Welcome to <em>SavorSphere Bistro</em>, where culinary artistry meets a haven for discerning palates. Nestled
                     in the heart of the city, our bistro is more than a dining destination—it's an experience crafted with
                     passion and dedication.At <em>SavorSphere</em>, we believe that exceptional cuisine is a journey that begins with
@@ -40,32 +43,45 @@
 
         <br><br><br>
 
-        <h2>Join Us!</h2>
+        <h2 style="color: darkolivegreen; text-align: center;">Join Us!</h2>
         <div id="jobs">
             <table id="jobs-table">
                 <tr class="jobs-header-row">
-                    <th>Job Title</th>
-                    <th>Location</th>
-                    <th>Salary</th>
-                    <th>Posted On</th>
+                    <th rowspan="2">Job Title</th>
+                    <th colspan="2">Location</th>
+                    <th rowspan="2">Salary</th>
+                    <th rowspan="2">Posted On</th>
+                </tr>
+                <tr class="jobs-header-row">
+                    <th>City</th>
+                    <th>Country</th>
                 </tr>
                 <tr class="jobs-data-row">
                     <td>Senior Chef</td>
-                    <td>Bengaluru, India</td>
+                    <td>Bengaluru</td>
+                    <td>India</td>
                     <td>12 lpa</td>
                     <td>Mar 03, 2023</td>
                 </tr>
                 <tr class="jobs-data-row">
                     <td>Restaurant Manager</td>
-                    <td>Chennai, India</td>
+                    <td>Chennai</td>
+                    <td>India</td>
                     <td>15 lpa</td>
                     <td>Feb 01, 2023</td>
                 </tr>
                 <tr class="jobs-data-row">
                     <td>Marketing Manager</td>
-                    <td>Hyderabad, India</td>
+                    <td>Hyderabad</td>
+                    <td>India</td>
                     <td>12 lpa</td>
                     <td>Dec 22, 2022</td>
+                </tr>
+                <tr class="jobs-data-row">
+                    <td>Web Designer</td>
+                    <td colspan="2">Remote</td>
+                    <td>12 lpa</td>
+                    <td>Jan 26, 2023</td>
                 </tr>
             </table>
         </div>
@@ -73,7 +89,7 @@
         <br>
 
         <div id="footer">
-            <h4 style="margin-bottom: 0">Follow us on:</h4>
+            <h6 style="margin-bottom: 0">Follow us on:</h6>
             <ul>
                 <li id="li-item"><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
                 <li id="li-item"><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>

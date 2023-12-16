@@ -26,6 +26,11 @@ h6 { font-size: 1rem; }
 
 a {
     text-decoration: none;
+    color: olivedrab;
+}
+
+a:hover, a:active {
+    color: darkolivegreen;
 }
 
 /* the style thingie is used for changing the appearance of the img tag under the id attribute */
@@ -99,6 +104,39 @@ a {
     background-color: ghostwhite;
 }
 
+#application {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+#application-form label {
+    font-weight: bold;
+    display: block;
+    font-size: 1.2rem;
+}
+
+#application-form input, select, textarea {
+    padding: 5px;
+    font-size: 1.1rem;
+    margin-top: 0;
+    border-radius: 5px;
+    border: 1px solid gray
+}
+
+#application-form select {
+    padding: 5px;
+    font-size: 1.1rem;
+    margin-top: 0;
+    width: 75%;
+    box-sizing: border-box;
+}
+
+#application-form textarea {
+    width: 75%;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
 
 /* the below thingie is used for changing the appearance of any tag, under the class attribute */
 .emphasis {
@@ -135,4 +173,21 @@ a {
     text-align: center;
     border: 1px solid grey;
     padding: 8px;
+}
+
+.form-group {
+    margin: 0;
+}
+
+.form-group input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+}
+
+.form-group input[type="submit"]{
+    background-color: #0ea5e9;
+    color: white;
+    font-weight: 700;
+    padding: 16px;
+    cursor: pointer;
 }

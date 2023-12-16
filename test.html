@@ -86,7 +86,58 @@
             </table>
         </div>
 
-        <br>
+        <br><br><br>
+
+        <div id="application">
+            <h2 style="color: darkolivegreen; text-align: center;">Submit your application:</h2>
+            <form id="application-form">
+                <div class="form-group">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="Name" required placeholder="Adam Smith">
+                </div><br>
+                <div class="form-group">
+                    <label for="email">Mail ID:</label><br>
+                    <input type="email" id="email" name="Mail ID" required placeholder="example@mail.com">
+                </div><br>
+                <div class="form-group">
+                    <label for="phone">Phone No:</label><br>
+                    <input type="number" id="phone" name="Phone No" required placeholder="9999999999"> 
+                </div><br>
+                <div class="form-group">
+                    <label for="date">Select your date of birth</label><br>
+                    <input type="date" id="date" name="DOB" required>
+                </div><br>
+                <div class="form-group">
+                    <label for="career">What position are you applying for?</label><br>
+                    <select id="career" name="Position" required>
+                        <option value="">Select an option</option>
+                        <option value="Senior Chef">Senior Chef</option>
+                        <option value="Restaurant Manager">Restaurant Manager</option>
+                        <option value="Marketing Manager">Marketing Manager</option>
+                        <option value="Web Designer">Web Designer</option>
+                    </select>
+                </div><br>
+                <div class="form-group">
+                    <label for="resume">Upload your resume</label><br>
+                    <input type="file" id="resume" name="Resume" accept=".pdf, .doc, .docx" required>
+                </div><br>
+                <div class="form-group">
+                    <label for="cover-letter">Cover Letter</label><br>
+                    <textarea id="cover-letter" name="Cover Letter" rows="10" required placeholder="Explain what makes you suitable for the role..."></textarea>
+                </div><br><br>
+                <div class="form-group">
+                    <label for="terms">
+                        <input type="checkbox" id="terms" name="Agreed" required>
+                        I agree to the terms and conditions
+                    </label>
+                </div><br><br><br>
+                <div class="form-group">
+                    <input type="submit" value="Submit Application">
+                </div>
+            </form>
+        </div>
+
+        <br><br><br>
 
         <div id="footer">
             <h6 style="margin-bottom: 0">Follow us on:</h6>

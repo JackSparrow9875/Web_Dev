@@ -1,5 +1,5 @@
 html {
-    font-size: 17px;
+    font-size: 16px;
     background-color: #fff8f0;
 }
 
@@ -9,32 +9,161 @@ body {
     font-weight: 400;
     line-height: 24px;
     color: #55206d;
+    margin: 0;
+    padding: 0;
 }
 
 h1, h2 {
     font-family: 'League Spartan', sans-serif;
-    font-size: 48px;
     font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #190d37;
+    font-size: 48px;
     line-height: 50px;
 }
 
-h3 {
-
+h2 {
+    color: #000000;
+    font-size: 36px;
+    line-height: 40px;
 }
-
-a { font-size:  }
 
 
 
 /*IDs*/
-#hero {}
+#hero {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto 48px auto;
+}
 
-#what-i-do {}
+#hero-text {
+    width: 50%;
+    padding: 32px 20px 32px 20px;
+}
 
-#projects {}
+#hi-and-name {
+    margin-top: 52px;
+}
 
-#pricing {}
+#contact-button {
+    margin-top: 20px;
+    height: 44px;
+    width: 138px;
+    border-radius: 4px;
+    color:  #ffffff;
+    background-color: #2f2f2f;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
 
-#questions {}
+#hero-img {
+    width: 50%;
+}
 
-#footer {}
+#pricing {
+    max-width: 1060px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+#pricing-boxes {
+    display: flex;    
+}
+
+
+
+/* Class */
+.bigtext {
+    color: #331e6a;
+    font-size: 1rem + 2;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.small-text {
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    color: black;
+}
+
+.over-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    color: #2858ff;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.section-heading {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.section-subtitle {
+    margin: 8px auto 48px auto;
+    max-width: 700px;
+}
+
+.pricing-box {
+    width: 33.33%;
+}
+
+.pricing-card {
+    text-align: left;
+    padding: 20px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 6px 2px 25px -9px #0000001a;
+}
+
+.service {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #2858ff;
+    text-transform: uppercase;
+}
+
+.price {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #000000;
+}
+
+.price-per {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #8a8a8a;
+    margin-top: 8px;
+}
+
+.service-description {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #8b8b8b;
+    margin-top: 8px;
+}
+
+.service-benefits {
+    
+}

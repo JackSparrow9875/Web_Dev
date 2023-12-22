@@ -37,7 +37,7 @@ h2 {
 /*IDs*/
 #hero {
     display: flex;
-    max-width: 1440px;
+    max-width: 1060px;
     margin: 0 auto 48px auto;
 }
 
@@ -75,6 +75,18 @@ h2 {
 
 #pricing-boxes {
     display: flex;    
+}
+
+#footer {
+    width: 100%;
+    text-align: center;
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    margin-top: 48px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
 }
 
 
